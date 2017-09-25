@@ -4,14 +4,14 @@ import path from 'path';
 const nodeExternals = require('webpack-node-externals');
 
 export default {
-    cache: true,
+    //cache: true,
     entry: [
         'webpack/hot/poll?1000',
         './src/index.js'
     ],
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        filename: '[name].js'
     },
     context: __dirname,
     node: {

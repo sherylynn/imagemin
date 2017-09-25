@@ -4,7 +4,11 @@
   "description": "server for rmmv",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./build/index.js",
+    "dev":"node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack",
+    "ts":""
   },
   "repository": {
     "type": "git",
@@ -28,7 +32,8 @@
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
-    "html-webpack-plugin": "^2.30.1"
+    "html-webpack-plugin": "^2.30.1",
+    "koa": "^2.3.0"
   },
   "bugs": {
     "url": "https://github.com/sherylynn/server4rmmv/issues"
