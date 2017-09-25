@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node ./build/index.js",
-    "dev":"node_modules/.bin/webpack --watch",
+    "start": "node ./build/index.js",
+    "dev": "node_modules/.bin/webpack --watch",
+    "tsdev": "node_modules/.bin/webpack --config webpack.config.ts --watch",
     "build": "node_modules/.bin/webpack",
-    "ts":""
+    "ts": ""
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "author": "sherylynn",
   "license": "MIT",
   "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
     "babel-cli": "^6.8.0",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
@@ -28,10 +30,13 @@
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
     "html-loader": "^0.5.1",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.5.2",
     "webpack": "^2.2.1",
     "webpack-node-externals": "^1.6.0"
   },
   "dependencies": {
+    "@types/koa": "^2.0.39",
     "html-webpack-plugin": "^2.30.1",
     "koa": "^2.3.0"
   },
