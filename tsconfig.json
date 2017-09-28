@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "outDir": "build/",
+    "allowJs":true,
     "sourceMap": true,
     "noEmitOnError": false,
     "noImplicitAny": true,
