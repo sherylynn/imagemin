@@ -30,3 +30,15 @@ class Student {
 }
 let user3=new Student('lynn','M.','hi')
 console.log(greeter2(user3))
+
+if(!a){
+  var a=_step+2
+}
+for (var _step = 0; _step < 5; _step++) {
+
+  if(_step===a){
+    a=_step+2
+    console.log(_step)
+  }
+
+}
