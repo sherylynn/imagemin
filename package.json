@@ -8,6 +8,7 @@
     "start": "node ./build/index.js",
     "dev": "node_modules/.bin/webpack --watch",
     "tsdev": "node_modules/.bin/webpack --config webpack.config.ts --watch",
+    "image": "node_modules/.bin/webpack --config webpack.config.imagemin.js",
     "build": "node_modules/.bin/webpack",
     "ts": ""
   },
@@ -38,6 +39,7 @@
   "dependencies": {
     "@types/koa": "^2.0.39",
     "html-webpack-plugin": "^2.30.1",
+    "imagemin-webpack-plugin": "^1.5.2",
     "koa": "^2.3.0",
     "socket.io": "^2.0.3"
   },

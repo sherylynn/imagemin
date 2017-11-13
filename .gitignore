@@ -44,6 +44,10 @@ _users/
 shit*
 log.txt
 
+# imagemin
+images/*
+imagemin/*
+
 # vscode
 .vscode
 
