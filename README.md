@@ -10,3 +10,9 @@ npm run tsdev
 然后新窗口运行
 
 npm start
+
+图片压缩 
+
+将图片新建入images文件夹中
+
+npm run image

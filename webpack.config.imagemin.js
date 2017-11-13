@@ -1,8 +1,8 @@
-import ImageminPlugin from 'imagemin-webpack-plugin'
+const ImageminPlugin =require('imagemin-webpack-plugin').default
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-import path from 'path'
+const path=require('path')
 
-export default {
+module.exports={
   //cache: true,
   entry: [
     './src/index.js'
