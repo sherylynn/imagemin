@@ -40,6 +40,8 @@
   "dependencies": {
     "@types/koa": "^2.0.39",
     "html-webpack-plugin": "^2.30.1",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-jpegoptim": "^5.1.0",
     "imagemin-webpack-plugin": "^1.5.2",
     "koa": "^2.3.0",
     "socket.io": "^2.0.3"
