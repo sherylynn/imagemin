@@ -34,6 +34,7 @@ module.exports={
         optimizationLevel: 4
       },
       plugins: [
+
         imageminJpegRecompress({
           accurate: true,//高精度模式
           quality: 'high',//图像质量:low, medium, high and veryhigh;
@@ -43,10 +44,14 @@ module.exports={
           progressive: false,//基线优化
           subsample: 'default'//子采样:default, disable;
         }),
+
         //这个插件就是压缩图片大小的了
+        /*
         imageminJpegoptim({
-          size:'50%'
+          //size:'50%'
+          size:'512'
         })
+        */
       ]
     })
   ],
